@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://Drishti-Rawat.github.io/portfolio-templet",
+    "build-gh": "parcel build --public-url 'https://Drishti-Rawat.github.io/portfolio-templet'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
