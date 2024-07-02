@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfoliobg.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,37 +31,37 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "NewsWave",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "NewsWave is a web application that aggregates top headlines from various news categories. With NewsWave, stay updated on the latest news across different topics including business, entertainment, health, science, sports, and technology.Technologies: React, React Router, Fetch API, Tailwind CSS .",
+    url: "https://github.com/Drishti-Rawat/NewsWave-",
   },
   {
-    title: "Web Development for Beginners",
+    title: "CineVerse",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Cinverse is a dynamic web app built with Next.js and React to enhance the movie-watching experience. It features trending, upcoming, top-rated, and popular movies on the homepage, a search box for quick finds, and genre-based navigation. Detailed descriptions and recommendations help users discover new films. The responsive design includes a dynamic navbar for a seamless user experience.",
+    url: "https://github.com/Drishti-Rawat/CineVerse",
   },
   {
-    title: "My Resume Site",
+    title: "Elite Auto",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "EliteAuto is a sleek web app built with Next.js and React to showcase luxury cars. It features an elegant homepage with high-quality images, advanced search, filter options, and detailed car profiles with comprehensive information. ",
+    url: "https://github.com/Drishti-Rawat/EliteAuto",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Shopping-Cart",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+      "This project is a simple yet robust implementation of a shopping cart for an e-commerce platform. It showcases a variety of features, including product listing, quantity management, price calculation, and local storage persistence using Redux.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
 ];
 
 const Portfolio = () => {
   return (
-    <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+    <section className="padding" id="portfolio" >
+      <h2 style={{ textAlign: "center"  }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+        <div style={{ maxWidth: "35%", alignSelf: "center", paddingLeft:"2rem" }}>
           <img
             src={image}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}

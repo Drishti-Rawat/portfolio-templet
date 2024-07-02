@@ -12,6 +12,7 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  color: whitesmoke;
 }
 
 div#main {
@@ -31,10 +32,18 @@ section.min-height {
 
 section.padding {
   padding: 5rem 0;
+  
+}
+
+#portfolio {
+  background-color: black;
+  color: whitesmoke;
+
 }
 
 section img.background {
   height: 100%;
+  width: 100%;
   left: 50%;
   object-fit: cover;
   pointer-events: none;
@@ -94,7 +103,7 @@ li::marker {
 }
 
 a {
-  color: black;
+  color: rgb(71, 163, 216);
   text-decoration: none;
 }
 
@@ -117,6 +126,7 @@ a:hover {
   justify-content: flex-start;
   padding: 24px 16px;
   text-align: center;
+  color: whitesmoke;
 }
 
 img.socialIcon {
